@@ -25,6 +25,9 @@
     #videobcg {
         display: none;
     }
+    .logo-img {
+        width: 18em;
+    }
 }
 
 html,
