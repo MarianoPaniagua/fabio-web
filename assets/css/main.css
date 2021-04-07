@@ -2064,7 +2064,8 @@ input[type="radio"]+label:before {
 
 .image.avatar img {
     display: block;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 .image.main {
