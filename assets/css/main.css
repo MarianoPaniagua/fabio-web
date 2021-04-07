@@ -2988,13 +2988,18 @@ input[type="button"]:disabled,
     border: none;
     border-radius: 6%;
     height: 8vh;
-    width: 10vw;
 }
 
 .a-aplicar {
     all: unset;
     color: #ffffff !important;
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .boton-aplicar {
+        width: 100%;
+    }
 }
 
 
