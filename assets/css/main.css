@@ -2996,6 +2996,15 @@ input[type="button"]:disabled,
     cursor: pointer;
 }
 
+.icon-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: .5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 @media screen and (max-width: 480px) {
     .boton-aplicar {
         width: 100%;
