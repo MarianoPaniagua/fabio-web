@@ -2986,13 +2986,15 @@ input[type="button"]:disabled,
     text-align: center;
     font-family: "Lato", sans-serif;
     border: none;
-    border-radius: 10%;
+    border-radius: 6%;
     height: 8vh;
+    width: 10vw;
 }
 
 .a-aplicar {
     all: unset;
     color: #ffffff !important;
+    cursor: pointer;
 }
 
 

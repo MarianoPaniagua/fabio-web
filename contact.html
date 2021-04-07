@@ -16,7 +16,7 @@
     <div class="container" id="contact_container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-6 pb-5">
-                <form action="https://docs.google.com/forms/d/e/1FAIpQLSf_cZiaYz_Q-HZZFV2ib1bhKA8K6r_lzcs___qcEYiLW-Ot1A/formResponse?" method="post">
+                <form name="gform" class="gform" action="https://docs.google.com/forms/d/e/1FAIpQLSf_cZiaYz_Q-HZZFV2ib1bhKA8K6r_lzcs___qcEYiLW-Ot1A/formResponse?" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                     <div class="card border-secondary rounded-0">
                         <div class="card-header p-0">
                             <div class="bg-secondary text-white text-center py-2">
@@ -74,7 +74,7 @@
                                 </div>
                             </div>
                             <div class="text-center">
-                                <input type="submit" value="Send" class="btn btn-secondary btn-block rounded-0 py-2">
+                                <input type="submit" value="Aplicar" class="btn btn-secondary btn-block rounded-0 py-2">
                             </div>
                             <div id="logo-contacto">
                                 <img src="images/trans2.png">
@@ -82,8 +82,11 @@
                         </div>
 
                     </div>
+
                 </form>
             </div>
+            <script src="assets/js/jquery.min.js"></script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
         </div>
     </div>
     <section id="footer">
@@ -99,10 +102,16 @@
             </ul>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/collapsible.js"></script>
+    <script src="assets/js/forms.js"></script>
     <script src="assets/js/contact.js"></script>
+
 
 </body>
 
