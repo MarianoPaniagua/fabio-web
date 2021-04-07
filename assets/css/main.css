@@ -1,12 +1,5 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
-
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 #videobcg {
     width: inherit;
     height: inherit;
@@ -2656,6 +2649,18 @@ input[type="button"]:disabled,
     width: 100%;
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: none;
+}
+
+.submittedMessage {
+    display: none;
+}
+
 #header>footer .icons {
     margin: 0;
 }
@@ -2973,6 +2978,21 @@ input[type="button"]:disabled,
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
+}
+
+.boton-aplicar {
+    background-color: #559483 !important;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    border: none;
+    border-radius: 10%;
+    height: 8vh;
+}
+
+.a-aplicar {
+    all: unset;
+    color: #ffffff !important;
 }
 
 
