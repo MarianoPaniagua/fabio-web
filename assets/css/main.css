@@ -351,6 +351,10 @@ hr {
     margin: 2.25em 0;
 }
 
+#logo-header {
+    text-align: center;
+}
+
 hr.major {
     margin: 3.375em 0;
 }
