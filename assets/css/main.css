@@ -1578,7 +1578,7 @@ pre code {
 .container {
     margin: 0 auto;
     max-width: calc(100% - 4.5em);
-    width: 45em;
+    width: 55em;
 }
 
 .container.xsmall {
@@ -2748,6 +2748,11 @@ input[type="button"]:disabled,
     line-height: 1em;
     list-style: none;
     padding: 0;
+    margin-left: 35px;
+}
+
+#footer .container {
+    display: contents;
 }
 
 #footer .copyright li {
