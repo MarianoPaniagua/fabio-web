@@ -2495,7 +2495,7 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-    background-color: #4acaa8;
+    background-color: #6d93da;
     color: #ffffff !important;
 }
 
@@ -2503,14 +2503,14 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 .button.primary:hover {
-    background-color: #5ed0b1;
+    background-color: #2e2299;
 }
 
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 .button.primary:active {
-    background-color: #39c29d;
+    background-color: #7680b6;
 }
 
 input[type="submit"].disabled,
