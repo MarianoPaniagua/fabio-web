@@ -267,7 +267,7 @@ a {
 
 a:hover {
     border-bottom-color: transparent;
-    color: #4acaa8 !important;
+    color: #6d93da !important;
 }
 
 strong,
@@ -2572,7 +2572,7 @@ input[type="button"]:disabled,
     -webkit-justify-content: space-between;
     -ms-justify-content: space-between;
     justify-content: space-between;
-    background: #4acaa8;
+    background: #6d93da;
     color: #d2f2e9;
     height: 100%;
     overflow-y: auto;
@@ -2684,7 +2684,7 @@ input[type="button"]:disabled,
 }
 
 #header>nav ul li {
-    border-top: solid 2px #5ccfb1;
+    border-top: solid 2px #5575df;
     display: block;
     padding: 0;
 }
@@ -2703,7 +2703,7 @@ input[type="button"]:disabled,
 
 #header>nav ul li a.active {
     background: #fff;
-    color: #4acaa8 !important;
+    color: #6d93da !important;
 }
 
 #header>nav ul li:first-child {
@@ -2958,7 +2958,7 @@ input[type="button"]:disabled,
         font-weight: 900;
     }
     #titleBar .toggle:before {
-        background: #4acaa8;
+        background: #6d93da;
         color: #ffffff;
         content: '\f0c9';
         display: block;
@@ -3006,7 +3006,6 @@ input[type="button"]:disabled,
 .icon-header {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     margin-right: .5rem;
     margin-top: 15px;
     margin-bottom: 15px;
