@@ -14,18 +14,6 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 767px) {
-    #videoContainer {
-        display: none;
-    }
-    #videobcg {
-        display: none;
-    }
-    .logo-img {
-        width: 18em;
-    }
-}
-
 
 /* Style the button that is used to open and close the collapsible content */
 
@@ -3201,4 +3189,26 @@ input[type="button"]:disabled,
 
 #aboutus-text {
     margin-top: 20px;
+}
+
+#aboutus-text p {
+    margin: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    #videoContainer {
+        display: none;
+    }
+    #videobcg {
+        display: none;
+    }
+    .logo-img {
+        width: 18em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #titleBar .title {
+        display: none;
+    }
 }
