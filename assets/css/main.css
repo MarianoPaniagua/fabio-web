@@ -3198,3 +3198,7 @@ input[type="button"]:disabled,
         padding: 0;
     }
 }
+
+#aboutus-text {
+    margin-top: 20px;
+}
