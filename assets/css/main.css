@@ -48,6 +48,7 @@
     overflow: hidden;
     background-color: #f1f1f1;
     margin-bottom: 6px;
+    margin-top: 50px;
 }
 
 html,
@@ -2247,9 +2248,10 @@ ul.feature-icons li {
     position: relative;
     vertical-align: top;
     width: 48%;
+    margin-bottom: inherit;
 }
 
-#b1 {
+.cllapbtn {
     margin-top: 10px;
 }
 
