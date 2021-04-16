@@ -2240,6 +2240,7 @@ ul.actions.fit.stacked {
 ul.feature-icons {
     list-style: none;
     padding-left: 0;
+    margin-top: 20px;
 }
 
 ul.feature-icons li {
@@ -3216,8 +3217,8 @@ input[type="button"]:disabled,
     margin-top: 20px;
 }
 
-#aboutus-text p {
-    margin: 5px;
+p {
+    margin: 10px;
 }
 
 @media screen and (max-width: 767px) {
