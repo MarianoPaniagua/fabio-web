@@ -2290,9 +2290,9 @@ ul.feature-icons li:before {
 }
 
 ul.feature-icons li:before {
-    background: #1e8340;
+    border: 1px solid #6d93da;
     border-radius: 100%;
-    color: #ffffff;
+    color: #6d93da;
     display: block;
     height: 2.5em;
     left: 0;
