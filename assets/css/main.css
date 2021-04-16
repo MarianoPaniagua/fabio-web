@@ -2253,6 +2253,26 @@ ul.feature-icons li {
 
 .cllapbtn {
     margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cllapbtn:hover {
+    margin-left: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.content li {
+    background-color: rgb(192, 189, 189)(159, 223, 188, 0.9);
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+    transition: all 0.5s ease-in-out;
+}
+
+.content li:hover {
+    margin-left: 10px;
 }
 
 ul.feature-icons li:before {
