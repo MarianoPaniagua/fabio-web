@@ -3243,3 +3243,11 @@ p {
     margin-bottom: 10px !important;
     padding: 0 !important;
 }
+
+.LI-profile-badge {
+    margin-top: 10px;
+}
+
+.profile-badge {
+    margin: auto;
+}
