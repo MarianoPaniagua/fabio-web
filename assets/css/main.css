@@ -3238,3 +3238,8 @@ p {
         display: none;
     }
 }
+
+.licontent {
+    margin-bottom: 10px !important;
+    padding: 0 !important;
+}
