@@ -31,7 +31,7 @@ function Header() {
       <header className="brand-header">
         <img
           className="brand-logo"
-          src="/images/tyc-mark-round.png"
+          src="./images/tyc-mark-round.png"
           alt="Símbolo TYC"
         />
         <div className="brand-copy">
@@ -176,7 +176,7 @@ function App() {
           <Section id="contacto" className="contact-section">
             <div className="contact-grid">
               <div className="contact-brand">
-                <img src="/images/tyc-mark-round.png" alt="" />
+                <img src="./images/tyc-mark-round.png" alt="" />
                 <h3>Talento y Conocimiento</h3>
                 <p className="contact-tagline">Conectando talento con oportunidades</p>
                 <p>Acompañamiento cercano para tomar decisiones y llevar adelante cambios en tu organización.</p>
@@ -212,7 +212,7 @@ function App() {
               </div>
 
               <div className="contact-coverage">
-                <img className="argentina-map-watermark" src="/images/argentina-relief.png" alt="" />
+                <img className="argentina-map-watermark" src="./images/argentina-relief.png" alt="" />
                 <h4>Modalidad de atención</h4>
                 <div>
                   <strong>Presencial</strong>
@@ -225,7 +225,7 @@ function App() {
               </div>
             </div>
             <a className="contact-mark-link" href="#inicio" aria-label="Volver al inicio">
-              <img className="contact-mark-end" src="/images/tyc-y-round.png" alt="" />
+              <img className="contact-mark-end" src="./images/tyc-y-round.png" alt="" />
             </a>
           </Section>
         </main>
