@@ -36,7 +36,6 @@ function Header() {
         />
         <div className="brand-copy">
           <h1 className="brand-title">Talento y Conocimiento</h1>
-          <p className="brand-tagline">Conectando talento con oportunidades</p>
         </div>
       </header>
       <button
@@ -178,7 +177,6 @@ function App() {
               <div className="contact-brand">
                 <img src="./images/tyc-mark-round.png" alt="" />
                 <h3>Talento y Conocimiento</h3>
-                <p className="contact-tagline">Conectando talento con oportunidades</p>
                 <p>Acompañamiento cercano para tomar decisiones y llevar adelante cambios en tu organización.</p>
               </div>
 
