@@ -189,7 +189,7 @@ function App() {
                   <li className="contact-method--details">
                     <span className="contact-icon" aria-hidden="true"><i className="fas fa-phone" /></span>
                     <div>
-                      <a className="phone-placeholder" href="tel:2916491558">2916491558</a>
+                      <a className="phone-placeholder" href="tel:2915652394">2915652394</a>
                       <p className="contact-detail">Lunes a Viernes de 9:00hs a 18:00hs</p>
                     </div>
                   </li>
@@ -200,7 +200,7 @@ function App() {
                   <li className="contact-method--details">
                     <span className="contact-icon" aria-hidden="true"><i className="fab fa-whatsapp" /></span>
                     <div>
-                      <a href="https://wa.me/2916491558" target="_blank" rel="noreferrer">2916491558</a>
+                      <a href="https://wa.me/2915652394" target="_blank" rel="noreferrer">2915652394</a>
                       <p className="contact-detail">Respuesta lo antes posible dentro de horario laboral</p>
                     </div>
                   </li>
